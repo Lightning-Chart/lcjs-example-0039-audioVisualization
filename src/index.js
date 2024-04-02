@@ -32,7 +32,8 @@ const startAudioVisualization = () => {
 
     // Loosely based on: https://blog.logrocket.com/audio-visualizer-from-scratch-javascript/
     let audio1 = new Audio()
-    audio1.src = document.head.baseURI + 'examples/assets/0039/alex-productions-noise.mp3'
+    audio1.src =
+        new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'examples/assets/0039/alex-productions-noise.mp3'
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
     let audioSource = null
     let analyser = null
