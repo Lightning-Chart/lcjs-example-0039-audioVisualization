@@ -13,7 +13,7 @@ const lc = lightningChart()
 
 const temporaryPanelAtStart = lc.UIPanel({
     container: exampleContainer,
-    theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined
+    theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
 })
 const ui = temporaryPanelAtStart.addUIElement().setPadding(12).setText('Click anywhere to start playing audio').setMouseInteractions(false)
 temporaryPanelAtStart.onBackgroundMouseClick((_) => startAudioVisualization())
