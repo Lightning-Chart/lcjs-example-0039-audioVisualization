@@ -9,7 +9,9 @@ if (exampleContainer === document.body) {
     exampleContainer.style.margin = '0px'
 }
 
-const lc = lightningChart()
+const lc = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
 
 const temporaryPanelAtStart = lc.UIPanel({
     container: exampleContainer,
