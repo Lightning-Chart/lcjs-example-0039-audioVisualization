@@ -86,7 +86,7 @@ const startAudioVisualization = () => {
         })
         .setMaxSampleCount(100_000)
         .setPointFillStyle(emptyFill)
-        .setAreaFillStyle(emptyLine)
+        .setAreaFillStyle(emptyFill)
         .setCursorEnabled(false)
     chartWaveform
         .getDefaultAxisX()
