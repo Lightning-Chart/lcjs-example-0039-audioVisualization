@@ -1,4 +1,4 @@
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 const { lightningChart, Themes, emptyFill, PalettedFill, LUT, AxisTickStrategies, AxisScrollStrategies, emptyLine, regularColorSteps } =
     lcjs
 
@@ -34,6 +34,7 @@ const startAudioVisualization = () => {
 
     // Loosely based on: https://blog.logrocket.com/audio-visualizer-from-scratch-javascript/
     let audio1 = new Audio()
+    audio1.crossOrigin = 'anonymous'
     audio1.src =
         new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'examples/assets/0039/alex-productions-noise.mp3'
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
