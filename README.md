@@ -63,10 +63,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[LightningChart]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/functions/lightningChart-1.html
-[Automatic tick placement strategies]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/variables/AxisTickStrategies.html
-[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/ChartXY.html
-[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/Axis.html
-[Line Series XY]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/LineSeries.html
-[Legend Box]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/Chart.html#addLegendBox
+[LightningChart]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/functions/lightningChart-1.html
+[Automatic tick placement strategies]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/variables/AxisTickStrategies.html
+[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/ChartXY.html
+[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/Axis.html
+[Line Series XY]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/LineSeries.html
+[Legend Box]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/Chart.html#addLegendBox
 

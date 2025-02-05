@@ -17,8 +17,8 @@ const temporaryPanelAtStart = lc.UIPanel({
     container: exampleContainer,
     theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
 })
-const ui = temporaryPanelAtStart.addUIElement().setPadding(12).setText('Click anywhere to start playing audio').setMouseInteractions(false)
-temporaryPanelAtStart.onBackgroundMouseClick((_) => startAudioVisualization())
+const ui = temporaryPanelAtStart.addUIElement().setPadding(12).setText('Click anywhere to start playing audio').setPointerEvents(false)
+temporaryPanelAtStart.background.addEventListener('click', () => startAudioVisualization())
 const theme = temporaryPanelAtStart.getTheme()
 
 const startAudioVisualization = () => {
@@ -56,7 +56,7 @@ const startAudioVisualization = () => {
         .setTitle('Alex-Productions - Noise')
         .setTitlePosition('series-right-top')
         .setPadding(30)
-        .setMouseInteractions(false)
+        .setUserInteractions(undefined)
     const palette = new PalettedFill({
         lookUpProperty: 'y',
         lut: new LUT({
@@ -71,7 +71,7 @@ const startAudioVisualization = () => {
         .setAreaFillStyle(palette)
         .setCursorEnabled(false)
     const axisY = chartFrequency.getDefaultAxisY().setInterval({ start: 0, end: 256 })
-    chartFrequency.forEachAxis((axis) => axis.setTickStrategy(AxisTickStrategies.Empty).setMouseInteractions(false))
+    chartFrequency.forEachAxis((axis) => axis.setTickStrategy(AxisTickStrategies.Empty))
 
     // (2) Waveform
     const chartWaveform = lc
@@ -99,7 +99,7 @@ const startAudioVisualization = () => {
             stopAxisAfter: false,
         }))
         .fit(false)
-    chartWaveform.getDefaultAxisY().setAnimationScroll(false).setChartInteractionZoomByWheel(false)
+    chartWaveform.getDefaultAxisY().setAnimationScroll(false)
     chartWaveform.getDefaultAxisY().setTickStrategy(AxisTickStrategies.Empty)
     chartWaveform.getDefaultAxisX().setTickStrategy(AxisTickStrategies.Time)
 
