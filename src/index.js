@@ -51,6 +51,7 @@ const startAudioVisualization = () => {
     // (1) Frequency visualization
     const chartFrequency = lc
         .ChartXY({
+            legend: { visible: false },
             container: containerChart1,
         })
         .setTitle('Alex-Productions - Noise')
@@ -65,7 +66,7 @@ const startAudioVisualization = () => {
         }),
     })
     const seriesFrequency = chartFrequency
-        .addPointLineAreaSeries({ dataPattern: 'ProgressiveX' })
+        .addPointLineAreaSeries()
         .setCurvePreprocessing({ type: 'spline', resolution: 10 })
         .setPointFillStyle(emptyFill)
         .setAreaFillStyle(palette)
@@ -76,22 +77,20 @@ const startAudioVisualization = () => {
     // (2) Waveform
     const chartWaveform = lc
         .ChartXY({
+            legend: { visible: false },
             container: containerChart2,
         })
         .setTitle('')
         .setPadding(30)
     const seriesWaveform = chartWaveform
-        .addPointLineAreaSeries({
-            dataPattern: 'ProgressiveX',
+        .addLineSeries({
             allowInputModification: false,
         })
         .setMaxSampleCount(100_000)
-        .setPointFillStyle(emptyFill)
-        .setAreaFillStyle(emptyFill)
         .setCursorEnabled(false)
     chartWaveform
         .getDefaultAxisX()
-        .setScrollStrategy(AxisScrollStrategies.progressive)
+        .setScrollStrategy(AxisScrollStrategies.scrolling)
         .setTickStrategy(AxisTickStrategies.Time)
         .setDefaultInterval((state) => ({
             start: (state.dataMax ?? 0) - 5_000,

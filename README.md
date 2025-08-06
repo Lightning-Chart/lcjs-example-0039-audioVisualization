@@ -39,7 +39,6 @@ https://creativecommons.org/licenses/by/3.0/deed.en_US
 * [Chart XY]
 * [Axis XY]
 * [Line Series XY]
-* [Legend Box]
 
 
 ## Support
@@ -63,10 +62,9 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[LightningChart]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/functions/lightningChart-1.html
-[Automatic tick placement strategies]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/variables/AxisTickStrategies.html
-[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/ChartXY.html
-[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/Axis.html
-[Line Series XY]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/LineSeries.html
-[Legend Box]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/Chart.html#addLegendBox
+[LightningChart]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/functions/lightningChart-1.html
+[Automatic tick placement strategies]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/AxisTickStrategies.html
+[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/ChartXY.html
+[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/Axis.html
+[Line Series XY]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/LineSeries.html
 
