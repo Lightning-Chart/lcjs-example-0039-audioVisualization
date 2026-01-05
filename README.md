@@ -1,6 +1,6 @@
-# JavaScript Real-Time MP3 Visualization
+# Real-Time Audio Visualization with JavaScript - LightningChart JS Editor
 
-![JavaScript Real-Time MP3 Visualization](audioVisualization-darkGold.png)
+![Real-Time Audio Visualization with JavaScript - LightningChart JS Editor](audioVisualization-darkGold.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
@@ -19,7 +19,7 @@ The demo can be used as an example or a seed project. Local execution requires t
 
 ## Description
 
-Example of using LightningChart JS to visualize a MP3 audio file in real-time.
+High-performance real-time audio visualization JavaScript with LightningChart JS. This example helps visualize MP3s audio files in real-time.
 
 ---
 
