@@ -59,12 +59,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://lightningchart.com/support-services/
 
-© LightningChart Ltd 2009-2025. All rights reserved.
+© LightningChart Ltd 2009-2026. All rights reserved.
 
 
-[LightningChart]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/functions/lightningChart-1.html
-[Automatic tick placement strategies]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/variables/AxisTickStrategies.html
-[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/ChartXY.html
-[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/Axis.html
-[Line Series XY]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/PointLineAreaSeries.html
+[LightningChart]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/functions/lightningChart-1.html
+[Automatic tick placement strategies]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/AxisTickStrategies.html
+[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/ChartXY.html
+[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/Axis.html
+[Line Series XY]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/PointLineAreaSeries.html
 
